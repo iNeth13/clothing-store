@@ -1,0 +1,27 @@
+.header {
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .nav {
+    display: flex;
+    padding: 0 2rem 0 2rem;
+    width: 30%;
+    justify-content: space-between;
+    position: relative;
+    li {
+      list-style: none;
+      padding-bottom: 1rem;
+      padding-top : 1rem;
+      margin-left : 1rem;
+    }
+    .link {
+      text-decoration: none;
+      outline: none !important;
+      color: black;
+      cursor: pointer;
+    }
+  }
+}
+

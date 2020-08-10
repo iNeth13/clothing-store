@@ -1,0 +1,39 @@
+.sign-in-sign-up-btn {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 2.8rem;
+  &.sign-in-sign-up-btn:hover{
+    border : 1px solid black;
+    color : black;
+    background-color: #fff;
+}
+}
+.google-button{
+  color : white;
+  background-color : #176BEF;
+  border : none;
+  cursor: pointer;
+  outline : none;
+  padding: 1rem 2rem;
+  &:hover{
+    border : 1px solid black;
+    color : black;
+    background-color: white;
+  }
+}
+.add-to-cart{
+  background-color: white;
+  color : black;
+  font-weight: bold;
+  border : 1px black solid;
+  &.add-to-cart:hover{
+    color : white;
+    background-color: black;
+  }
+}
+
